@@ -1,0 +1,84 @@
+$color-teal:#17A2B8;
+$color-primary: #724006;
+$color-secondary: #4c2705;
+$color-pale: #CEC8FF;
+$color-mid: #120d0300;
+$color-dark: #2c1804;
+$color-black-transparent: rgba(20, 6, 6, 0.5);
+
+$body-font: "Dosis", sans-serif;
+$header-font:"Dosis", sans-serif;
+
+body {
+    font-family: $body-font;
+    background-color: $color-black-transparent;
+}
+
+h1, h2, h3 {
+   font-family: $header-font;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+
+footer {
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+header {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: white;
+}
+.menu{
+    background-color:$color-pale ;
+    color:$color-secondary;
+}
+.favorites{
+    font-family: "Dosis", sans-serif;
+    color: white;
+
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: $color-mid;
+}
+
+.accordion-button {
+    background-color: #d3d3d3;
+  }
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid;
+     color:white;
+}
+
+.modal-header {
+        background-color: $color-primary;  
+        color: white;      
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+th, td {
+    padding: 15px;
+  }
